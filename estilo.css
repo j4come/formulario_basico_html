@@ -1,0 +1,25 @@
+p#titulos {font-size: 40px; font-family: 'Times New Roman', Times, serif;}
+article#form1{
+    width: 350px;
+    height: 280px;
+    border: 1px;   
+    border-color: #000000;
+    border-style: solid;
+    text-align: left;
+    }
+    article#form2{
+    width: 350px;
+    height: auto;
+    border: 1px;   
+    border-color: #000000;
+    border-style: solid;
+    text-align: left;
+        }
+article#form3{
+    width: 450px;
+    height: 250px;
+    border: 1px;   
+    border-color: #000000;
+    border-style: solid;
+    text-align: left;
+            }

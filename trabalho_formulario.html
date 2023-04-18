@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css"> <!--puxar folha de estilo-->
+    <title>Trabalho Formulários</title>
+</head>
+<body>
+   
+<article id="form1">
+    <form action="">
+        <p id="titulos"> Sistema MeuIFMG</p>
+        <p>Entre com os dados para acessar o sistema:</p>
+        <p>Usuário (seu e-mail)<input type="email" name="usuário" required></p>
+        <p>Senha<input type="password" name="senha" maxlength="6" minlength="6" required ></p>
+        <div><input type="submit" value="Enviar"><input type="reset" value="Limpar"></div>     
+    </form>
+</article>
+
+<br>
+
+<article id="form2">
+<form action="">
+    <p id="titulos"> Fale Conosco</p>
+    <p>Você tem alguma dúvida ou sugestão? Envie para nós!</p>
+    <p>Nome<input type="name" name="nome" required></p>
+    <p>E-mail<input type="email" name="nome" required></p>
+    <textarea name="comentário" cols="30" rows="10" maxlength="500"></textarea>
+
+    <div><input type="submit" value="Enviar"><input type="reset" value="Limpar"></div>  
+</form>
+</article>
+ 
+<br>
+
+<article id="form3">
+<form action="">
+    <p id="titulos">Escolha sua refeição!</p>
+    <p>O que vai beber?<select>
+        <option value="escolha">Escolha uma bebida</option>
+        <option value="Coca-Cola">Coca-Cola</option>
+        <option value="Fanta">Fanta</option>
+        <option value="Água">Água</option>
+        <option value="ÁguaComGás">Água com gás</option>
+        <option value="Nada">Nada</option>    
+      </select>
+    </p>  
+      <p> Selecione o prato principal (já vem arroz):</p>
+      <input type="radio" name="principal" value="strogonoff"> Strogonoff
+      <input type="radio" name="principal" value="feijoada"> Feijoada
+      <input type="radio" name="rabada" value="feijoada"> Rabada
+      <input type="radio" name="rabada" value="churrasco"> Churrasco (vem feijão)      
+    <div><input type="submit" value="Enviar Pedido"><input type="reset" value="Limpar"></div>  
+</form>
+</article>
+    
+</body>
+</html>
